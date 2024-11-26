@@ -7,7 +7,7 @@ export default function Contact() {
     <main className={styles.container}>
       <section className={styles.header}>
         <h1 className={styles.title}>Contact</h1>
-        <h2 className={styles.subtitle}>Let&apos;s Create Something Extraordinary</h2>
+        <h2 className={styles.subtitle}>Let's Create Something Extraordinary</h2>
       </section>
 
       <section className={styles.contactSection}>
@@ -15,7 +15,7 @@ export default function Contact() {
           <div className={styles.contactInfo}>
             <h3>Get in Touch</h3>
             <p>
-              I&apos;m always interested in discussing new projects, creative ideas, or opportunities to be part of your vision.
+              I'm always interested in discussing new projects, creative ideas, or opportunities to be part of your vision.
             </p>
             <br />
             <div className={styles.infoDetails}>
@@ -86,3 +86,5 @@ export default function Contact() {
     </main>
   );
 }
+
+

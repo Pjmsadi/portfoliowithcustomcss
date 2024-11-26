@@ -102,11 +102,11 @@ export default function Skills() {
       </section>
 
       <section className={styles.cta}>
-        <h2 className={styles.sectionTitle}>Let's Create Together</h2>
+        <h2 className={styles.sectionTitle}>Let&apos;s Create Together</h2>
         <p className={styles.ctaText}>
           I bring a unique blend of technical expertise and creative vision to every project.
-          Whether you're looking to establish a distinguished digital presence or elevate your existing platform,
-          I'm here to transform your vision into reality.
+          Whether you&apos;re looking to establish a distinguished digital presence or elevate your existing platform,
+          I&apos;m here to transform your vision into reality.
         </p>
         <a href="/contact" className={styles.ctaButton}>Discuss Your Project</a>
       </section>

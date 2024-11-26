@@ -1,6 +1,7 @@
 'use client';
 
 import styles from './footer.module.css';
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -14,10 +15,10 @@ export default function Footer() {
         <div className={styles.footerSection}>
           <h3 className={styles.footerHeading}>Navigation</h3>
           <div className={styles.footerNav}>
-            <a href="/">Home</a>
-            <a href="/about">About</a>
-            <a href="/skills">Skills</a>
-            <a href="/contact">Contact</a>
+            <Link href="/">Home</Link>
+            <Link href="/about">About</Link>
+            <Link href="/skills">Skills</Link>
+            <Link href="/contact">Contact</Link>
           </div>
         </div>
 

@@ -40,7 +40,7 @@ export default function Home() {
             Crafting elegant digital experiences with timeless sophistication
           </p>
           <a href="/contact" className={`${styles.ctaButton} animate-on-scroll`}>
-            Let's Collaborate
+            Let&apos;s Collaborate
           </a>
         </div>
       </section>
@@ -116,11 +116,11 @@ export default function Home() {
         <h2 className={`${styles.sectionTitle} animate-on-scroll`}>Client Testimonials</h2>
         <div className={styles.testimonialGrid}>
           <blockquote className={`${styles.testimonialCard} animate-on-scroll`}>
-            "Sadia's attention to detail and professional approach made our project a complete success."
+            &ldquo;Sadia&apos;s attention to detail and professional approach made our project a complete success.&rdquo;
             <cite>- Sarah Johnson, CEO</cite>
           </blockquote>
           <blockquote className={`${styles.testimonialCard} animate-on-scroll`}>
-            "Working with Sadia was a pleasure. She brought our vision to life beautifully."
+            &ldquo;Working with Sadia was a pleasure. She brought our vision to life beautifully.&rdquo;
             <cite>- Michael Chen, Creative Director</cite>
           </blockquote>
         </div>

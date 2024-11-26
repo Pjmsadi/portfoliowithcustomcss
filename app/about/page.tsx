@@ -18,7 +18,7 @@ export default function About() {
               As a passionate Web Developer and Graphic Designer, I bring a unique blend of technical expertise and creative vision to every project. My approach combines timeless design principles with modern technological innovations, creating digital experiences that exude sophistication and elegance.
             </p>
             <p className={styles.bio}>
-              With years of dedicated experience in both web development and graphic design, I've cultivated a deep understanding of how to create digital solutions that not only look beautiful but also deliver exceptional functionality and user experience.
+              With years of dedicated experience in both web development and graphic design, I&apos;ve cultivated a deep understanding of how to create digital solutions that not only look beautiful but also deliver exceptional functionality and user experience.
             </p>
             <div className={styles.values}>
               <h3>Core Values</h3>
@@ -65,9 +65,9 @@ export default function About() {
       </section>
 
       <section className={styles.connect}>
-        <h2 className={styles.sectionTitle}>Let's Connect</h2>
+        <h2 className={styles.sectionTitle}>Let&apos;s Connect</h2>
         <p className={styles.connectText}>
-          I'm always interested in discussing new projects and opportunities for collaboration.
+          I&apos;m always interested in discussing new projects and opportunities for collaboration.
         </p>
         <div className={styles.social}>
           <a href="https://www.linkedin.com/in/sadia-batool-39ba982b5" className={styles.socialLink}>LinkedIn</a>
@@ -79,4 +79,3 @@ export default function About() {
     </main>
   );
 }
-

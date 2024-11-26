@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import styles from './navbar.module.css';
+import Link from 'next/link';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -19,18 +20,17 @@ export default function Navbar() {
     <nav className={`${styles.navbar} ${isScrolled ? styles.scrolled : ''}`}>
       <div className={styles.navContainer}>
         <div className={styles.navBrand}>
-          <a href="/" className={styles.brandName}>Sadia Batool</a>
+          <Link href="/" className={styles.brandName}>Sadia Batool</Link>
           <span className={styles.brandTitle}>Web Developer & Designer</span>
         </div>
 
         <div className={styles.navLinks}>
-          <a href="/" className={styles.navLink}>Home</a>
-          <a href="/about" className={styles.navLink}>About</a>
-          <a href="/skills" className={styles.navLink}>Skills</a>
-          <a href="/contact" className={styles.navLink}>Contact</a>
+          <Link href="/" className={styles.navLink}>Home</Link>
+          <Link href="/about" className={styles.navLink}>About</Link>
+          <Link href="/skills" className={styles.navLink}>Skills</Link>
+          <Link href="/contact" className={styles.navLink}>Contact</Link>
         </div>
       </div>
     </nav>
   );
 }
-
